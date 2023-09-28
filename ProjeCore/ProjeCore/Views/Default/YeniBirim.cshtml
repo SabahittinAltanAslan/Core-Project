@@ -1,0 +1,19 @@
+﻿@model ProjeCore.Models.Birim;
+
+@{
+    ViewData["Title"] = "YeniBirim";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+
+
+<br />
+<form class="form-group" method="post">
+
+    <b2>Birim ADI GİRİNİZ</b2>
+    @Html.TextBoxFor(x=>x.BirimAd,new{@class="form-control"})
+    <button class="btn btn-info">Ekle</button>
+</form>
+
+
+
